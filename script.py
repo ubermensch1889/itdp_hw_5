@@ -19,7 +19,7 @@ def stop_spark(spark):
 def extract(spark):
     hdfs = SparkHDFS(host="tmpl-nn", port=9000, spark=spark, cluster="test")
     reader = FileDFReader(connection=hdfs, format=CSV(delimiter=",", header=True), source_path="/input")
-    return reader.run(["titanic.csv"])
+    return reader.run(["mobiles.csv"])
 
 @task
 def transform(df):
