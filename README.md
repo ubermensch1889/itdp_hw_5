@@ -9,6 +9,12 @@
 
 ## Инструкция
 
+Загружаем скрипт.
+```
+git clone https://github.com/ubermensch1889/itdp_hw_5.git
+cd itdp_hw_5
+```
+
 Создаем виртуальную среду.
 ```
 python3 -m venv venv
